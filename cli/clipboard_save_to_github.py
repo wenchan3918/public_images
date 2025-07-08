@@ -19,6 +19,11 @@ except ImportError:
     print("請安裝Pillow庫：pip install Pillow")
     sys.exit(1)
 
+try:
+    import pyperclip
+except ImportError:
+    print("請安裝pyperclip庫：pip install pyperclip")
+    sys.exit(1)
 
 
 class ClipboardImageSaver:
